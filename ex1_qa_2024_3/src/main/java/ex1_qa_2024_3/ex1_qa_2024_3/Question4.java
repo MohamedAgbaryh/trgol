@@ -1,5 +1,8 @@
 package ex1_qa_2024_3.ex1_qa_2024_3;
 public class Question4 {
+	 /* Mohamed Agbaryh 211405568 
+	  Yazed Diab 314744228
+	  */
 	public static String Compare( double a , double b ,String mod)
 	{
 		
@@ -19,11 +22,12 @@ public class Question4 {
 				  return "B";
 			  
 		  case "reciprocals":
-			  
-
-			  if(1/a< 1/b) 
+			  if(b==0 || a==0) 
+				  return "error";
+						  
+				  else if (1/a< 1/b) 
 				  return "B";
-					  
+				  
 				  else
 					  return "A";
 			  
